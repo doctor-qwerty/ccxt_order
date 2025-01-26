@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ccxt-order"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.1"
+ccxt = "^4.4.48"
+asyncio = "^3.4.3"
+pytest = "^8.3.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-asyncio = "^0.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
