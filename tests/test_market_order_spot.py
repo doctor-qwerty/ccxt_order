@@ -7,8 +7,8 @@ import pytest
 async def test_market_order():
     # Replace these values with your actual API credentials and desired parameters
     exchange_name = 'binance'
-    api_key = 'dCDo9PdSzlXpkvJGMbrmrn3Lj1C5rCNyeHyYLU06OcqiHo8IUBCzTLNAIvSW9aKd'
-    secret_key = 'CCAX6JJWmwhhysPIOP7WbEOVvndhzxhrNJPI1fQ3KPtXccm3GQUafstadKXAnx0C'
+    api_key = ''
+    secret_key = ''
     symbol = 'BTC/USDT'
     amount = 0.001
     side = 'buy'  # 'buy' to open a long position, 'sell' to open a short position
